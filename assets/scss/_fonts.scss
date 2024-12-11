@@ -1,0 +1,17 @@
+@import 'mixins/font-face';
+
+// HelveticaNeue Font
+@include font-face(
+  'HelveticaNeue',
+  '~/assets/fonts/HelveticaNeue/HelveticaNeueLight'
+);
+@include font-face(
+  'HelveticaNeue',
+  '~/assets/fonts/HelveticaNeue/HelveticaNeueBold',
+  bold
+);
+@include font-face(
+  'HelveticaNeue',
+  '~/assets/fonts/HelveticaNeue/HelveticaNeueMedium',
+  500
+);

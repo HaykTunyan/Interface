@@ -1,0 +1,19 @@
+$text-base: #000;
+$primary-beige: #deded4;
+$primary-green: #424d38;
+$dark-green: #798c74;
+$secondary-brown: #725252;
+$secondary-gray: #b2b1af;
+$gray: #7c8387;
+$secondary-green: #9eb29a;
+$secondary-blue: #86a3b2;
+$default-font: 'HelveticaNeue', sans-serif;
+$heading-font-size: 80rem;
+$light-bg: #F5F5F5;
+$dark-bg: #1A1A1A;
+
+@mixin mobile() {
+  @media screen and (max-width: 520px) {
+    @content;
+  }
+}
